@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+:root{
+  --icons-color: #4c5773;
+  --icons-light-color: #4c577341;
+  --icons-bg-color: #e2e6e9;
+  --shadow-dark-color: #d3dae7;
+  --shadow-light-color: #fff;
+  --main-bg-color: #ecf0f3;
+
+  --box-shadow: 1rem 1rem 1rem var(var(--shadow-dark-color), -1rem -1rem 1rem var(var(--shadow-dark-color)));
+
+  --box-shadow-2: 0rem 0rem 0rem var(var(--shadow-dark-color), -.3rem -.3rem 1rem var(var(--shadow-dark-color)));
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+::selection{
+  color: var(--shadow-dark-color);
+  background: var(--icons-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar{
+  width: 1rem;
+  border: 1px solid var(--main-bg-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar-track{
+  border-radius: 0;
+  background-color: var(--main-bg-color);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb{
+  border-radius: 2rem;
+  background: var(--icons-color);
+  width: .5rem;
 }
