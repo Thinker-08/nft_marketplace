@@ -1,10 +1,16 @@
-import {Navbar} from './components/componentindex';
 import './App.css';
-
+import Home from './pages/index';
+import {
+  Service,
+  BigNFTSlider,
+  Subscribe} from './components/componentindex';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Home/>
+      <Service/>
+      <BigNFTSlider/>
+      <Subscribe/>
     </div>
   );
 }
