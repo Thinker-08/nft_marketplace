@@ -5,7 +5,10 @@ import HeroSection from './HeroSection/HeroSection';
 import Service from './Service/service';
 import BigNFTSlider from './BigNFTSlider/BigNFTSlider';
 import Subscribe from './Subscribe/Subscribe';
-
+import Title from './Title/title';
+import Category from './Category/category';
+import Filter from './Filter/Filter';
+import NFTCard from './NFTCard/NFTCard';
 export  {
     Button,
     Footer,
@@ -13,5 +16,9 @@ export  {
     HeroSection,
     Service,
     BigNFTSlider,
-    Subscribe
+    Subscribe,
+    Title,
+    Category,
+    Filter,
+    NFTCard
 };
