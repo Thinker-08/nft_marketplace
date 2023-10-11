@@ -7,6 +7,7 @@ import {
   Title,
   Category,
   Filter,
+  Collection,
   NFTCard} from './components/componentindex';
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Home/>
       <Service/>
       <BigNFTSlider/>
+      <Title heading="New Collection"
+        paragraph="Discover the most outstanding NFTs in all topics of life"/>
+      <Collection/>
       <Title heading="Featured NFTs"
         paragraph="Discover the most outstanding NFTs in all topics of life"/>
       <Filter/>
