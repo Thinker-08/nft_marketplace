@@ -8,15 +8,15 @@ import {
   Category,
   Filter,
   Collection,
-  NFTCard} from './components/componentindex';
+  NFTCard,
+  FollowerTab} from './components/componentindex';
 function App() {
   return (
     <div className="App">
       <Home/>
       <Service/>
       <BigNFTSlider/>
-      <Title heading="New Collection"
-        paragraph="Discover the most outstanding NFTs in all topics of life"/>
+      <FollowerTab/>
       <Collection/>
       <Title heading="Featured NFTs"
         paragraph="Discover the most outstanding NFTs in all topics of life"/>
